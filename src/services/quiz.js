@@ -38,6 +38,11 @@ async function getAllQuizzesAsync() {
             name: quiz.name
         };
     });
+    // const list = quizzes.map(quiz => {
+    //     return {
+    //     id: quiz.id, name: quiz.name.toUpperCase()
+    //     };
+    //     });
     return list;
 }
 
